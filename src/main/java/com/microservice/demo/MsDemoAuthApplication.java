@@ -1,0 +1,15 @@
+package com.microservice.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
+@EnableEurekaClient
+@SpringBootApplication
+public class MsDemoAuthApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MsDemoAuthApplication.class, args);
+	}
+
+}
